@@ -1,0 +1,78 @@
+body {
+	font-family: "Open Sans" , sans-serif;
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#header {
+	background-color: #E74C3C;
+	border-bottom: 1px solid #2C3E50;
+	border-bottom: 1px solid #FFF;
+	padding: 4em 1em;
+	text-align: center;
+}
+
+#header .banner {
+	border-radius: 100%;
+	border: 5px solid #FFF;
+	display: block;
+	margin: 0 auto;
+}
+
+#header .title {
+	border-bottom: 3px solid #FFF;
+	/*border-top: 3px solid #FFF;*/
+	display: inline-block;
+	margin-bottom: 0.25em;
+	padding-bottom: 0.5em;
+	/*padding: 0.5em 1em;*/
+}
+
+#header .description {
+	margin-top: 0.5em;
+}
+
+/*
+
+PRESENTATION
+
+*/
+
+#presentation {
+	background-color: #34495e;
+	border-bottom: 1px solid #2C3E50;
+	padding: 2em 2em 4em 2em;
+	text-align: center;
+}
+
+/*
+
+LIKES
+
+*/
+
+/*
+
+CLASEES
+
+*/
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+}
+
+.description {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+}
+
+.next {
+	font-size: 4em;
+}
