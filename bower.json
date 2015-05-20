@@ -1,0 +1,30 @@
+{
+  "name": "saulhormazabal.cl",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SaulHormazabal/saulhormazabal.cl",
+  "authors": [
+    "Saúl Hormazábal <saul.hormazabal@gmail.com>"
+  ],
+  "description": "Sitio web personal",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "saul",
+    "hormazabal",
+    "sahch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize.css": "~3.0.3"
+  }
+}
