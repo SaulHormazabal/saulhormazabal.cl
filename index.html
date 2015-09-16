@@ -2,67 +2,48 @@
 <html>
 	<head>
 
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta charset="utf-8">
+
+		<meta name="viewport"    content="width=device-width, initial-scale=1">
+		<meta name="description" content="Programador de programas">
 
 		<title>Saúl Hormazábal</title>
 
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css" />
-		<link href="styles/saulhormazabal.css" rel="stylesheet" />
+		<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+		<link rel="stylesheet" href="styles/index.css">
 
 	</head>
 	<body>
 
-		<div id="wrapper">
-			
-			<header id="header">
+		<main class="block">
 
-				<img class="banner" src="images/saul.jpg" alt="Saúl Hormazábal">
+			<header class="block__header">
 
-				<h1 class="title">Saúl Hormazábal</h1>
+				<img class="block__header__avatar" src="images/saul.jpg" alt="Saúl Hormazábal">
 
-				<p class="description">Programador de programas</p>
+				<h1 class="block__header__title">Saúl Hormazábal</h1>
 
-				<nav id="navigation"></nav>
-
-				<p><a href="#presentation" class="next">↓</a></p>
+				<p class="block__header__description">Programador de programas</p>
 
 			</header>
 
-			<section id="section">
+			<nav class="block__content">
 
-				<article id="presentation">
+				<ul class="block__content__icons">
+					<li><a title="Facebook" href="https://www.facebook.com/sahch"><i class="fa fa-facebook-official"></i></a></li>
+					<li><a title="Twitter"  href="https://twitter.com/SaulHormazabal"><i class="fa fa-twitter"></i></a></li>
+					<li><a title="LinkedIn" href="https://cl.linkedin.com/in/saulhormazabal
+"><i class="fa fa-linkedin"></i></a></li>
+					<li><a title="GitHub"   href="https://github.com/SaulHormazabal"><i class="fa fa-github"></i></a></li>
+					<li><a title="Medium"   href="https://medium.com/@saulhormazabal"><i class="fa fa-medium"></i></a></li>
+				</ul>
 
-					<header class="header">
-						
-						<h2 class="title">Presentación</h2>
+			</nav>
 
-						<div class="content">
-
-							<p>Mi nombre completo es Saúl Andrés Hormazábal Chávez, nací en la ciudad de El Monte, donde vivo actualmente, sin embargo muchos años importantes en mi vida los pasé en Temuco, en donde estudié Ingeniería Informática la Universidad de La Frontera, aunque aún no terminado mis estudios, me inicie en el mundo laboral en el Instituto de Informática Educativa de la misma Universidad en donde trabajé por casi cuatro años realizando desarrollo web, tanto en backend como en frontend, para proyectos de desarrollo e investigación.</p>
-
-							<p>Te invito a seguir bajando, a continuación te cuento algunas de las cosas que me gustan.</p>
-
-						</div>
-
-					</header>
-
-				</article>
-
-				<article id="likes">
-
-					<header>
-						<h2 class="title">Mis gustos</h2>
-					</header>
-
-				</article>
-
-			</section>
-
-		</div>
+		</main>
 
 	</body>
 </html>

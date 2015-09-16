@@ -1,0 +1,24 @@
+{
+  "name": "saulhormazabal.cl",
+  "version": "0.0.0",
+  "description": "Sitio web personal",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaulHormazabal/saulhormazabal.cl.git"
+  },
+  "author": "saul.hormazabal@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaulHormazabal/saulhormazabal.cl/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
