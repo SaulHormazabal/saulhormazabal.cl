@@ -1,0 +1,54 @@
+
+@import '_flexbox.scss';
+
+@import 'mixins.scss';
+@import 'base.scss';
+@import 'block.scss';
+@import 'icons.scss';
+
+body {
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	background-image: url(../images/HNCK4536.jpg);
+
+
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.block {
+	box-shadow: none;
+	margin: 2rem auto;
+}
+
+@media ( min-width: 320px ) {
+
+	.block {
+		width: 250px;
+	}
+	
+}
+
+@media ( min-width: 480px ) {
+
+	.block {
+		width: 350px;
+	}
+	
+}
+
+
+@media ( min-height: 480px ) {
+
+	body {
+		@include align-items( center );
+		@include flexbox;
+		@include justify-content( center );
+		padding: 0;
+	}
+
+}

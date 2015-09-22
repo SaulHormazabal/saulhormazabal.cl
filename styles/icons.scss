@@ -1,0 +1,32 @@
+.icon {
+
+	background-image: url(../images/icons.jpg);
+	display: inline-block;
+	height: 26px;
+
+	&--fb {
+		background-position: 0 0;
+		width: 26px;
+	}
+
+	&--tw {
+		background-position: -25px 0;
+		width: 24px;
+	}
+
+	&--li {
+		background-position: -49px 0;
+		width: 25px;
+	}
+
+	&--gh {
+		background-position: -74px 0;
+		width: 25px;
+	}
+
+	&--m {
+		background-position: -99px 0;
+		width: 30px;
+	}
+
+}
